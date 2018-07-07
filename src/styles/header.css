@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 930, from(#09afcc), to(#011518));
+}
+.name {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+   font-weight: 500;
+}
+img {
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.links {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 510px){
+    .name {
+        font-size: 30px;
+    }
+}
