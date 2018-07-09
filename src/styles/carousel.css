@@ -1,14 +1,14 @@
-.carousel {
+.item.active {
     height: 500px;
     cursor: pointer;
 }
 @media (max-width: 700px){
-    .carousel {
+    .item.active {
         height: 320px;
     }
 }
 @media (max-width: 466px){
-    .carousel {
+    .item.active {
         height: 200px;
     }
 }
