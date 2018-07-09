@@ -1,0 +1,20 @@
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.knowledge h1{
+    text-align: center;
+}
+.skills {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+}
+.skills img {
+    width: 150px;
+    margin: 20px;
+}
