@@ -7,10 +7,10 @@ import '../styles/carousel.css';
 
 export  default () => (
             <Carousel >
-                <Carousel.Item >
-                    <a href="www.devcodebar.com" target='_blank'><img src={DevCodeBar} alt='devcodebar' /></a>
+                <Carousel.Item onClick={() => {window.open('http://www.devcodebar.com')}}>
+                   <img src={DevCodeBar} alt='devcodebar' />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item onClick={() => {window.open('https://car-loan-app.herokuapp.com/')}}>
                     <img src={ carloanapp } alt='carloanapp'/>
                 </Carousel.Item>
                 <Carousel.Item>
