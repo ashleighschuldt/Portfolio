@@ -1,0 +1,14 @@
+.item.active {
+    height: 500px;
+    cursor: pointer;
+}
+@media (max-width: 700px){
+    .item.active {
+        height: 320px;
+    }
+}
+@media (max-width: 466px){
+    .item.active {
+        height: 200px;
+    }
+}

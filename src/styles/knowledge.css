@@ -12,9 +12,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10%;
+    padding: 5%;
 }
 .skills img {
     width: 150px;
     margin: 20px;
+}
+p{
+    padding: 10px;
+    text-align: center;
 }
