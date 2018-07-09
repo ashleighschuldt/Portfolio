@@ -1,0 +1,14 @@
+.carousel {
+    height: 500px;
+    cursor: pointer;
+}
+@media (max-width: 700px){
+    .carousel {
+        height: 320px;
+    }
+}
+@media (max-width: 466px){
+    .carousel {
+        height: 200px;
+    }
+}

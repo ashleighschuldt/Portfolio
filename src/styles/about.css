@@ -1,6 +1,8 @@
 .about {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
-p {
+.about img {
+    width: 300px;
+    border: solid 2px rgb(88, 88, 88);
 }
