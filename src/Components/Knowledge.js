@@ -35,8 +35,6 @@ export class Knowledge extends Component{
                 <img src= { git } alt='git'/>
                 <img src= { github } alt='github'/>
                 </div>
-                <p> In addition to these skills, I have an understanding of Agile/Scrum and Waterfall methodologies and how they play a role in developing a product.
-                    I also have experience with REST and HTTP.</p>
             </div>
     )}
 }

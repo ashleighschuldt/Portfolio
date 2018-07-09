@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../styles/header.css';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.svg';
+import pdf from '../assets/pdf.png'
 
 export class Header extends Component {
     render(){

@@ -3,6 +3,9 @@
     justify-content: space-between;
     padding: 20px;
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 930, from(#09afcc), to(#011539));
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 .name {
     font-size: 40px;
