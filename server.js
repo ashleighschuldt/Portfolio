@@ -12,6 +12,12 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, './build')))
 const port = process.env.PORT || 5000;
 
+app.get('/*', (req, res) => {
+    res.sendFile('index.html', {
+        root: path.join(__dirname, "build")
+      })
+  })
+
 app.listen(port, ()=>{
     console.log('this port is awesome', port)
 });
