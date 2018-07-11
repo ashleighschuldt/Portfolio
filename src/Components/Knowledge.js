@@ -20,7 +20,9 @@ export class Knowledge extends Component{
     render(){
         return(
             <div className='knowledge'>
-            <h1 id='skills'>Skill Set</h1>
+            <div id='knowledge'>
+            <h1 >Knowledge</h1>
+            </div>
             <div className='skills'>
                 <img src={ reactLogo } alt='react'/>
                 <img src={ javascript } alt='js'/>
