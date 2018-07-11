@@ -5,7 +5,7 @@ import '../styles/about.css';
 export class About extends Component{
     render(){
         return(
-        <div className='about'>
+        <div className='about' id='about'>
           <img src={me} alt='me'/>
         <h1>About Me</h1>
             <h4> I am a problem solver. I love being challenged and finding reusable solutions.</h4>
